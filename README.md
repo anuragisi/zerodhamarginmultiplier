@@ -15,4 +15,5 @@ Now you will be having the serial numbers with just before the stock name.
 
 And finally you can use the text file whenever you require pull the data of CNC or MIS.
 
+Disclamer :-This is for educational purpose only and i am not telling you to use without appropriate permission.
 
