@@ -12,7 +12,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 name_box = soup.find('tbody')
 name = name_box.text.strip()
 table = name_box
-new_table = pd.DataFrame(columns=range(1,4), index = [0]) # I know the size
+new_table = pd.DataFrame(columns=range(1,4), index = [0])
 row_marker = 0
 file = open('margin.txt', 'w')
 for row in table.find_all('tr'):
